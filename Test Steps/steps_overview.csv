@@ -1,3 +1,21 @@
-Flow ID,Description,Test Steps,Flow Priority
-1,Verify successful navigation to Home Page,"step 1: Navigate to Page home
-step 2: Add visual checkpoint at Page home",High
+Flow ID,Name,Description,Test Steps,Flow Priority
+0,Verify Successful Checkout Process for Sauce Labs Backpack,Navigate to the home page and proceed with the login process. Add the specified item to the cart and proceed to checkout. Enter the required information and complete the checkout process. Verify that the checkout is complete in the specified page.,"step 1: Navigate to Page_home
+step 2: At Page home, click on div object
+step 3: At Page home, click on input password
+step 4: At Page home, input on input password
+step 5: At Page home, click on input login button
+step 6: At Page home, click on div object
+step 7: At Page home, input on input password
+step 8: At Page home, click on input login button > navigate to Page inventory.html
+step 9: At Page inventory.html, click on button add to cart sauce labs backpack
+step 10: At Page inventory.html, click on hyperlink object > navigate to Page cart.html
+step 11: At Page cart.html, click on button checkout > navigate to Page checkout-step-one.html
+step 12: At Page checkout-step-one.html, click on input firstname
+step 13: At Page checkout-step-one.html, input on input firstname
+step 14: At Page checkout-step-one.html, click on input lastname
+step 15: At Page checkout-step-one.html, input on input lastname
+step 16: At Page checkout-step-one.html, click on input postalcode
+step 17: At Page checkout-step-one.html, input on input postalcode
+step 18: At Page checkout-step-one.html, click on input continue > navigate to Page checkout-step-two.html
+step 19: At Page checkout-step-two.html, click on button finish > navigate to Page checkout-complete.html
+step 20: Add visual checkpoint at Page_checkout-complete.html",Trivial
